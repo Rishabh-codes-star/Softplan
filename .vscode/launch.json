@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "name": "Debug Softplan",
+      "target": "Softplan",
+      "configuration": "debug",
+      "preLaunchTask": "swift: Build Debug Softplan"
+    },
+    {
+      "type": "swift",
+      "request": "launch",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "name": "Release Softplan",
+      "target": "Softplan",
+      "configuration": "release",
+      "preLaunchTask": "swift: Build Release Softplan"
+    }
+  ]
+}

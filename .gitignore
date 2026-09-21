@@ -1,0 +1,11 @@
+# Build output
+.build/
+dist.noindex/
+*.xcuserdatad/
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
+
+# Icon generation intermediate (regenerate with scripts/make-icon.swift)
+scripts/AppIcon.iconset/
